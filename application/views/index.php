@@ -6,20 +6,20 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Home | Flat Theme</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>application/views/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>application/views/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>application/views/css/prettyPhoto.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>application/views/css/animate.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>application/views/css/main.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
     <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url();?>application/views/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url();?>application/views/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url();?>application/views/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url();?>application/views/images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 <body>
     <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
@@ -31,7 +31,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="<?php echo base_url();?>application/views/images/logo.png" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -66,7 +66,7 @@
                 <li data-target="#main-slider" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
+                <div class="item active" style="background-image: url(<?php echo base_url();?>application/views/images/slider/bg1.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                 </div><!--/.item-->
-                <div class="item" style="background-image: url(images/slider/bg2.jpg)">
+                <div class="item" style="background-image: url(<?php echo base_url();?>application/views/images/slider/bg2.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
@@ -92,7 +92,7 @@
                         </div>
                     </div>
                 </div><!--/.item-->
-                <div class="item" style="background-image: url(images/slider/bg3.jpg)">
+                <div class="item" style="background-image: url(<?php echo base_url();?>application/views/images/slider/bg3.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6">
@@ -182,7 +182,7 @@
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                                                <img class="img-responsive" src="<?php echo base_url();?>application/views/images/portfolio/recent/item1.png" alt="">
                                                 <h5>
                                                     Nova - Corporate site template
                                                 </h5>
@@ -195,12 +195,12 @@
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
+                                                <img class="img-responsive" src="<?php echo base_url();?>application/views/images/portfolio/recent/item3.png" alt="">
                                                 <h5>
                                                     Fornax - Apps site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url();?>application/views/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -208,12 +208,12 @@
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                                                <img class="img-responsive" src="<?php echo base_url();?>application/views/images/portfolio/recent/item2.png" alt="">
                                                 <h5>
                                                     Flat Theme - Business Theme
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url();?>application/views/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -225,12 +225,12 @@
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
+                                                <img class="img-responsive" src="<?php echo base_url();?>application/views/images/portfolio/recent/item2.png" alt="">
                                                 <h5>
                                                     Flat Theme - Business Theme
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url();?>application/views/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -238,12 +238,12 @@
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                                                <img class="img-responsive" src="<?php echo base_url();?>application/views/images/portfolio/recent/item1.png" alt="">
                                                 <h5>
                                                     Nova - Corporate site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url();?>application/views/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -251,12 +251,12 @@
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
+                                                <img class="img-responsive" src="<?php echo base_url();?>application/views/images/portfolio/recent/item3.png" alt="">
                                                 <h5>
                                                     Fornax - Apps site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url();?>application/views/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -337,7 +337,7 @@
                     <div>
                         <div class="media">
                             <div class="pull-left">
-                                <img src="images/blog/thumb1.jpg" alt="">
+                                <img src="<?php echo base_url();?>application/views/images/blog/thumb1.jpg" alt="">
                             </div>
                             <div class="media-body">
                                 <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
@@ -346,7 +346,7 @@
                         </div>
                         <div class="media">
                             <div class="pull-left">
-                                <img src="images/blog/thumb2.jpg" alt="">
+                                <img src="<?php echo base_url();?>application/views/images/blog/thumb2.jpg" alt="">
                             </div>
                             <div class="media-body">
                                 <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
@@ -355,7 +355,7 @@
                         </div>
                         <div class="media">
                             <div class="pull-left">
-                                <img src="images/blog/thumb3.jpg" alt="">
+                                <img src="<?php echo base_url();?>application/views/images/blog/thumb3.jpg" alt="">
                             </div>
                             <div class="media-body">
                                 <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
@@ -406,9 +406,9 @@
         </div>
     </footer><!--/#footer-->
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/main.js"></script>
+    <script src="<?php echo base_url();?>application/views/js/jquery.js"></script>
+    <script src="<?php echo base_url();?>application/views/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url();?>application/views/js/jquery.prettyPhoto.js"></script>
+    <script src="<?php echo base_url();?>application/views/js/main.js"></script>
 </body>
 </html>
