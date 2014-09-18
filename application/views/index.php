@@ -15,7 +15,7 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo base_url();?>images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url();?>application/views/images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url();?>application/views/images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url();?>application/views/images/ico/apple-touch-icon-72-precomposed.png">
@@ -31,29 +31,29 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="<?php echo base_url();?>application/views/images/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url();?>application/views/images/logo.png" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="active"><a href="<?php echo base_url();?>">Home</a></li>
                     <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="<?php echo base_url();?>application/views/services.html">Services</a></li>
+                    <li><a href="<?php echo base_url();?>application/views/portfolio.html">Portfolio</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="blog-item.html">Blog Single</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="404.html">404</a></li>
-                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="<?php echo base_url();?>application/views/career.html">Career</a></li>
+                            <li><a href="<?php echo base_url();?>application/views/blog-item.html">Blog Single</a></li>
+                            <li><a href="<?php echo base_url();?>application/views/pricing.html">Pricing</a></li>
+                            <li><a href="<?php echo base_url();?>application/views/404.html">404</a></li>
+                            <li><a href="<?php echo base_url();?>application/views/registration.html">Registration</a></li>
                             <li class="divider"></li>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms.html">Terms of Use</a></li>
+                            <li><a href="<?php echo base_url();?>application/views/privacy.html">Privacy Policy</a></li>
+                            <li><a href="<?php echo base_url();?>application/views/terms.html">Terms of Use</a></li>
                         </ul>
                     </li>
-                    <li><a href="blog.html">Blog</a></li> 
-                    <li><a href="contact-us.html">Contact</a></li>
+                    <li><a href="<?php echo base_url();?>application/views/blog.html">Blog</a></li> 
+                    <li><a href="<?php echo base_url();?>application/views/contact-us.html">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -187,7 +187,7 @@
                                                     Nova - Corporate site template
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url();?>images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -410,5 +410,6 @@
     <script src="<?php echo base_url();?>application/views/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url();?>application/views/js/jquery.prettyPhoto.js"></script>
     <script src="<?php echo base_url();?>application/views/js/main.js"></script>
+    <script src="<?php echo base_url();?>application/views/js/jquery.isotope.min.js"></script>
 </body>
 </html>
