@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-sm-6">
                     <ul class="breadcrumb pull-right">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="<?php echo site_url();?>">Home</a></li>
                         <li class="active">Services</li>
                     </ul>
                 </div>

@@ -72,24 +72,24 @@
                 <li data-target="#main-slider" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url(<?php echo base_url();?>application/views/images/slider/bg1.jpg)">
+                <div class="item active" style="background-image: url(<?php echo base_url();?>application/views/images/slider/WebDesign.png)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Powerful and Responsive Web Design</h2>
-                                    <p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                    <h2 class="boxed animation animated-item-1">Powerful and Responsive Websites</h2><br>
+                                    <p class="boxed animation animated-item-2" >Websites that make your business reach digitally.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div><!--/.item-->
-                <div class="item" style="background-image: url(<?php echo base_url();?>application/views/images/slider/bg2.jpg)">
+                <div class="item" style="background-image: url(<?php echo base_url();?>application/views/images/slider/bg1.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="carousel-content center centered">
-                                    <h2 class="boxed animation animated-item-1">Clean, Crisp, Powerful and Responsive Web Design</h2>
+                                    <h2 class="boxed animation animated-item-1">Clean, Crisp, Powerful and Responsive Web Applications</h2>
                                     <p class="boxed animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                                     <br>
                                     <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
@@ -138,7 +138,7 @@
                         </div>
                         <div class="media-body">
                             <a href="https://twitter.com/itechroute" target="_blank"><h3 class="media-heading">Twitter</h3></a>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                            <p>Stay up to date on trends, and to drive awareness to IT and tech related tweets and content that keeps you engaging, do follow us on twitter.</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -149,7 +149,7 @@
                         </div>
                         <div class="media-body">
                             <a href="https://www.facebook.com/iTechRoute" target="_blank"><h3 class="media-heading">Facebook</h3></a>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                            <p>Make yourself more knowledgeable by reading our posts and new updates on our Facebook page, and also get to know about great opportunities waiting for you @ iTechRoute.</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
@@ -160,7 +160,7 @@
                         </div>
                         <div class="media-body">
                             <a href="https://www.linkedin.com/company/itechroute" target="_blank"><h3 class="media-heading">Linkedin</h3></a>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                            <p>Know more about us and our corporate environment by following us on LinkedIn</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->

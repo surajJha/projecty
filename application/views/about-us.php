@@ -77,7 +77,7 @@
                 </div>
                 <div class="col-sm-6">
                     <ul class="breadcrumb pull-right">
-                        <li><a href="index.php">Home</a></li>
+                        <li><a href="<?php echo site_url();?>">Home</a></li>
                         <li class="active">About Us</li>
                     </ul>
                 </div>
@@ -128,9 +128,10 @@
                 </div>
             </div><!--/.col-sm-6-->
         </div><!--/.row-->
-
-        <div class="gap"></div>
         <a name="meettheteam"></a>
+        <hr>
+        <div class="gap"></div>
+        
         <h1 class="center">Meet the Team</h1>
         <p class="lead center"></p>
         <div class="gap"></div>
