@@ -36,24 +36,24 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="<?php echo base_url();?>">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="<?php echo base_url();?>application/views/services.html">Services</a></li>
-                    <li><a href="<?php echo base_url();?>application/views/portfolio.html">Portfolio</a></li>
-                    <li class="dropdown">
+                    <li><a href="<?php echo base_url();?>application/views/about-us.php">About Us</a></li>
+                    <li><a href="<?php echo base_url();?>application/views/services.php">Services</a></li>
+                    <li><a href="<?php echo base_url();?>application/views/portfolio.php">Portfolio</a></li>
+<!--                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?php echo base_url();?>application/views/career.html">Career</a></li>
-                            <li><a href="<?php echo base_url();?>application/views/blog-item.html">Blog Single</a></li>
-                            <li><a href="<?php echo base_url();?>application/views/pricing.html">Pricing</a></li>
-                            <li><a href="<?php echo base_url();?>application/views/404.html">404</a></li>
-                            <li><a href="<?php echo base_url();?>application/views/registration.html">Registration</a></li>
+                            <li><a href="<?//php echo base_url();?>application/views/career.html">Career</a></li>
+                            <li><a href="<?//php echo base_url();?>application/views/blog-item.html">Blog Single</a></li>
+                            <li><a href="<?//php echo base_url();?>application/views/pricing.html">Pricing</a></li>
+                            <li><a href="<?//php echo base_url();?>application/views/404.html">404</a></li>
+                            <li><a href="<?//php echo base_url();?>application/views/registration.html">Registration</a></li>
                             <li class="divider"></li>
-                            <li><a href="<?php echo base_url();?>application/views/privacy.html">Privacy Policy</a></li>
-                            <li><a href="<?php echo base_url();?>application/views/terms.html">Terms of Use</a></li>
+                            <li><a href="<?//php echo base_url();?>application/views/privacy.html">Privacy Policy</a></li>
+                            <li><a href="<?//php echo base_url();?>application/views/terms.html">Terms of Use</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo base_url();?>application/views/blog.html">Blog</a></li> 
-                    <li><a href="<?php echo base_url();?>application/views/contact-us.html">Contact</a></li>
+                    <li><a href="<?php echo base_url();?>application/views/blog.html">Blog</a></li> -->
+                    <li><a href="<?php echo base_url();?>application/views/contact-us.php">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -131,7 +131,7 @@
                             <i class="icon-twitter icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Twitter Marketing</h3>
+                            <h3 class="media-heading">Twitter</h3>
                             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
                         </div>
                     </div>
@@ -142,7 +142,7 @@
                             <i class="icon-facebook icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Facebook Marketing</h3>
+                            <h3 class="media-heading">Facebook</h3>
                             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                             <i class="icon-google-plus icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Google Plus Marketing</h3>
+                            <h3 class="media-heading">Google Plus</h3>
                             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
                         </div>
                     </div>
