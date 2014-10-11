@@ -65,7 +65,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <h1>Services</h1>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                    <p></p>
                 </div>
                 <div class="col-sm-6">
                     <ul class="breadcrumb pull-right">
@@ -83,59 +83,60 @@
                 <div class="col-md-12">
                     <div class="center gap">
                         <h2>What we do</h2>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        <p>We Develop, Consult, Train and Research.</p>
                     </div>                
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-6 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
                             <i class="icon-windows icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Windows Development</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                            <h3 class="media-heading">Web-Application Development</h3>
+                            <p>We provide corporate solutions related to their online needs by developing responsive websites or web-application on your dream portal. </p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-6 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
                             <i class="icon-android icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Android Development</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                            <h3 class="media-heading">Android App Development</h3>
+                            <p>Our Enterprise Android App Development Team makes your mobile solution affordable.</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="icon-apple icon-md"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">iOS Development</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-            </div><!--/.row-->
+              </div><!--/.row-->
             <div class="gap"></div>
             <div class="row">
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-6 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <i class="icon-group icon-md"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Training</h3>
+                            <p>Corporate IT skills training with certification , making you ready for the future IT Tech World.</p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+
+                <div class="col-md-6 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
                             <i class="icon-linux icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Linux Development</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                            <h3 class="media-heading">Academic Year Projects</h3>
+                            <p>Projects that make you stand out of College crowd with all the learning.</p>
                         </div>
                     </div>
                 </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
+<!--                <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
                             <i class="icon-dribbble icon-md"></i>
@@ -145,7 +146,7 @@
                             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
                         </div>
                     </div>
-                </div><!--/.col-md-4-->
+                </div>/.col-md-4
                 <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
@@ -156,8 +157,8 @@
                             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
                         </div>
                     </div>
-                </div><!--/.col-md-4-->
-            </div><!--/.row-->
+                </div>/.col-md-4-->
+            </div><!--row-->
             <hr>
             <div class="row">
                 <div class="col-lg-12">
