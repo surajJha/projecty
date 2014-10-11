@@ -136,6 +136,7 @@
 <!--                    <p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url();?>application/views/images/team-member.jpg" alt="" ></p>-->
                     <h5>Mrs. Ranjana Wankhade<small class="designation muted">Co-Founder</small></h5>
                     <p>Dreams have only one owner at a time.</p>
+                    <br>
                     <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
                 </div>
             </div>
@@ -163,7 +164,7 @@
                     <!--<p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url();?>application/views/images/team-member.jpg" alt="" ></p>-->
                     <h5>Mr. Laxman Maskar<small class="designation muted">Project Manager</small></h5>
                     <p>Always deliver more than expected.</p>
-                    
+                    <br>
                     <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
                 </div>
             </div>
