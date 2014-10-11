@@ -31,14 +31,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url();?>application/views/images/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="<?php echo site_url();?>"><img src="<?php echo base_url();?>application/views/images/logo.png" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="<?php echo base_url();?>">Home</a></li>
-                    <li><a href="<?php echo base_url();?>application/views/about-us.php">About Us</a></li>
-                    <li><a href="<?php echo base_url();?>application/views/services.php">Services</a></li>
-                    <li><a href="<?php echo base_url();?>application/views/portfolio.php">Portfolio</a></li>
+                    <li class="active"><a href="<?php echo site_url();?>">Home</a></li>
+                    <li><a href="<?php echo site_url();?>/loadViewsController/loadAboutus">About Us</a></li>
+                    <li><a href="<?php echo site_url();?>/loadViewsController/loadServices">Services</a></li>
+                    <li><a href="<?php echo site_url();?>/loadViewsController/loadPortfolio">Portfolio</a></li>
 <!--                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
@@ -52,8 +52,8 @@
                             <li><a href="<?//php echo base_url();?>application/views/terms.html">Terms of Use</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?php echo base_url();?>application/views/blog.html">Blog</a></li> -->
-                    <li><a href="<?php echo base_url();?>application/views/contact-us.php">Contact</a></li>
+                    <li><a href="<?php echo site_url();?>loadViewsController/loadServices">Blog</a></li> -->
+                    <li><a href="<?php echo site_url();?>/loadViewsController/loadContactus">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -410,6 +410,5 @@
     <script src="<?php echo base_url();?>application/views/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url();?>application/views/js/jquery.prettyPhoto.js"></script>
     <script src="<?php echo base_url();?>application/views/js/main.js"></script>
-    <script src="<?php echo base_url();?>application/views/js/jquery.isotope.min.js"></script>
 </body>
 </html>

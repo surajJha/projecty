@@ -6,20 +6,20 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>About Us | Flat Theme</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>application/views/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>application/views/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>application/views/css/prettyPhoto.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>application/views/css/animate.css" rel="stylesheet">
+    <link href="<?php echo base_url();?>application/views/css/main.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="<?php echo base_url();?>images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url();?>application/views/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url();?>application/views/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url();?>application/views/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo base_url();?>application/views/images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 <body>
     <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
@@ -31,15 +31,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="<?php echo site_url();?>"><img src="<?php echo base_url();?>application/views/images/logo.png" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li class="dropdown">
+                    <li><a href="<?php echo site_url();?>">Home</a></li>
+                    <li class="active"><a href="<?php echo site_url();?>/loadViewsController/loadAboutus">About Us</a></li>
+                    <li><a href="<?php echo site_url();?>/loadViewsController/loadServices">Services</a></li>
+                    <li><a href="<?php echo site_url();?>/loadViewsController/loadPortfolio">Portfolio</a></li>
+<!--                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="career.html">Career</a></li>
@@ -53,8 +53,8 @@
                             <li><a href="terms.html">Terms of Use</a></li>
                         </ul>
                     </li>
-                    <li><a href="blog.html">Blog</a></li> 
-                    <li><a href="contact-us.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li> -->
+                    <li><a href="<?php echo site_url();?>/loadViewsController/loadContactus">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -123,7 +123,7 @@
         <div id="meet-the-team" class="row">
             <div class="col-md-3 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team-member.jpg" alt="" ></p>
+                    <p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url();?>application/views/images/team-member.jpg" alt="" ></p>
                     <h5>David J. Robbins<small class="designation muted">Senior Vice President</small></h5>
                     <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
                     <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
@@ -132,7 +132,7 @@
 
             <div class="col-md-3 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team-member.jpg" alt="" ></p>
+                    <p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url();?>application/views/images/team-member.jpg" alt="" ></p>
                     <h5>David J. Robbins<small class="designation muted">Senior Vice President</small></h5>
                     <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
                     <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
@@ -140,7 +140,7 @@
             </div>        
             <div class="col-md-3 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team-member.jpg" alt="" ></p>
+                    <p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url();?>application/views/images/team-member.jpg" alt="" ></p>
                     <h5>David J. Robbins<small class="designation muted">Senior Vice President</small></h5>
                     <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
                     <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
@@ -148,7 +148,7 @@
             </div>        
             <div class="col-md-3 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team-member.jpg" alt="" ></p>
+                    <p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url();?>application/views/images/team-member.jpg" alt="" ></p>
                     <h5>David J. Robbins<small class="designation muted">Senior Vice President</small></h5>
                     <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
                     <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
@@ -188,7 +188,7 @@
                     <div>
                         <div class="media">
                             <div class="pull-left">
-                                <img src="images/blog/thumb1.jpg" alt="">
+                                <img src="<?php echo base_url();?>application/views/images/blog/thumb1.jpg" alt="">
                             </div>
                             <div class="media-body">
                                 <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
@@ -197,7 +197,7 @@
                         </div>
                         <div class="media">
                             <div class="pull-left">
-                                <img src="images/blog/thumb2.jpg" alt="">
+                                <img src="<?php echo base_url();?>application/views/images/blog/thumb2.jpg" alt="">
                             </div>
                             <div class="media-body">
                                 <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
@@ -206,7 +206,7 @@
                         </div>
                         <div class="media">
                             <div class="pull-left">
-                                <img src="images/blog/thumb3.jpg" alt="">
+                                <img src="<?php echo base_url();?>application/views/images/blog/thumb3.jpg" alt="">
                             </div>
                             <div class="media-body">
                                 <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
@@ -257,9 +257,9 @@
         </div>
     </footer><!--/#footer-->
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/main.js"></script>
+    <script src="<?php echo base_url();?>application/views/js/jquery.js"></script>
+    <script src="<?php echo base_url();?>application/views/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url();?>application/views/js/jquery.prettyPhoto.js"></script>
+    <script src="<?php echo base_url();?>application/views/js/main.js"></script>
 </body>
 </html>
