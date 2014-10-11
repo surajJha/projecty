@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class loadViewsController extends CI_Controller {
+class Welcome extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -19,27 +19,7 @@ class loadViewsController extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('index');
-	}
-        public function loadServices()
-	{
 		$this->load->view('services');
-	}
-        public function loadAboutus()
-	{
-		$this->load->view('about-us');
-	}
-        public function loadPortfolio()
-	{
-		$this->load->view('portfolio');
-	}
-        public function loadContactus()
-	{
-		$this->load->view('contact-us');
-	}
-        public function loadFAQ()
-	{
-		$this->load->view('faq');
 	}
 }
 

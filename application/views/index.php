@@ -31,14 +31,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo site_url();?>"><img src="<?php echo base_url();?>application/views/images/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url();?>application/views/images/logo.png" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="<?php echo site_url();?>">Home</a></li>
+                    <li class="active"><a href="<?php echo base_url();?>">Home</a></li>
                     <li><a href="<?php echo site_url();?>/loadViewsController/loadAboutus">About Us</a></li>
                     <li><a href="<?php echo site_url();?>/loadViewsController/loadServices">Services</a></li>
                     <li><a href="<?php echo site_url();?>/loadViewsController/loadPortfolio">Portfolio</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="<?php echo site_url();?>/loadViewsController/loadFAQ">FAQ</a></li>
+                        </ul>
+                    </li>
 <!--                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
@@ -131,7 +137,7 @@
                             <i class="icon-twitter icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Twitter</h3>
+                            <a href="https://twitter.com/itechroute" target="_blank"><h3 class="media-heading">Twitter</h3></a>
                             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
                         </div>
                     </div>
@@ -142,7 +148,7 @@
                             <i class="icon-facebook icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Facebook</h3>
+                            <a href="https://www.facebook.com/iTechRoute" target="_blank"><h3 class="media-heading">Facebook</h3></a>
                             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
                         </div>
                     </div>
@@ -150,10 +156,10 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="media">
                         <div class="pull-left">
-                            <i class="icon-google-plus icon-md"></i>
+                            <i class="icon-linkedin-sign icon-md"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Google Plus</h3>
+                            <a href="https://www.linkedin.com/company/itechroute" target="_blank"><h3 class="media-heading">Linkedin</h3></a>
                             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
                         </div>
                     </div>
@@ -306,105 +312,11 @@
         </div>
     </section><!--/#testimonial-->
 
-    <section id="bottom" class="wet-asphalt">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <h4>About Us</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                    <p>Pellentesque habitant morbi tristique senectus.</p>
-                </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
-                    <h4>Company</h4>
-                    <div>
-                        <ul class="arrow">
-                            <li><a href="#">Company Overview</a></li>
-                            <li><a href="#">Meet The Team</a></li>
-                            <li><a href="#">Our Awesome Partners</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Frequently Asked Questions</a></li>
-                            <li><a href="#">Conatct Us</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Copyright</a></li>
-                        </ul>
-                    </div>
-                </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
-                    <h4>Latest Blog</h4>
-                    <div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <img src="<?php echo base_url();?>application/views/images/blog/thumb1.jpg" alt="">
-                            </div>
-                            <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 17 Aug 2013</small>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <img src="<?php echo base_url();?>application/views/images/blog/thumb2.jpg" alt="">
-                            </div>
-                            <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 13 Sep 2013</small>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <img src="<?php echo base_url();?>application/views/images/blog/thumb3.jpg" alt="">
-                            </div>
-                            <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 11 Jul 2013</small>
-                            </div>
-                        </div>
-                    </div>  
-                </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
-                    <h4>Address</h4>
-                    <address>
-                        <strong>Twitter, Inc.</strong><br>
-                        795 Folsom Ave, Suite 600<br>
-                        San Francisco, CA 94107<br>
-                        <abbr title="Phone">P:</abbr> (123) 456-7890
-                    </address>
-                    <h4>Newsletter</h4>
-                    <form role="form">
-                        <div class="input-group">
-                            <input type="text" class="form-control" autocomplete="off" placeholder="Enter your email">
-                            <span class="input-group-btn">
-                                <button class="btn btn-danger" type="button">Go!</button>
-                            </span>
-                        </div>
-                    </form>
-                </div> <!--/.col-md-3-->
-            </div>
-        </div>
-    </section><!--/#bottom-->
-
-    <footer id="footer" class="midnight-blue">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
-                </div>
-                <div class="col-sm-6">
-                    <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer><!--/#footer-->
+    <?php $this->load->view('elements/bottomsection');?>
+    <!--/#bottom-->
+   
+    <?php $this->load->view('elements/footer');?>
+    <!--/#footer-->
 
     <script src="<?php echo base_url();?>application/views/js/jquery.js"></script>
     <script src="<?php echo base_url();?>application/views/js/bootstrap.min.js"></script>
