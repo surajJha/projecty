@@ -25,13 +25,13 @@
                         <li><a href="<?php echo site_url(); ?>">Home</a></li>
                         <li><a href="<?php echo site_url(); ?>/loadViewsController/loadAboutus">About Us</a></li>
                         <li><a href="<?php echo site_url(); ?>/loadViewsController/loadServices">Services</a></li>
-                        <li><a href="<?php echo site_url(); ?>/loadViewsController/loadPortfolio">Portfolio</a></li>
+<!--                        <li><a href="<?php echo site_url(); ?>/loadViewsController/loadPortfolio">Portfolio</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="<?php echo site_url(); ?>/loadViewsController/loadFAQ">FAQ</a></li>
                             </ul>
-                        </li>
+                        </li>-->
                         <!--                    <li class="dropdown">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                                                 <ul class="dropdown-menu">
