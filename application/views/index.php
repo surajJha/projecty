@@ -75,49 +75,49 @@
                 <li data-target="#main-slider" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="item active" style="background-image: url(<?php echo base_url();?>application/views/images/slider/WebDesign.png)">
+                <div class="item active" style="background-image: url(<?php echo base_url();?>application/views/images/slider/background1.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="carousel-content centered">
-                                    <h2 class="boxed animation animated-item-1">Powerful and Responsive Websites</h2><br>
-                                    <p class="boxed animation animated-item-2" >Websites that make your business reach digitally.</p>
+                                    <h2 class="boxed animation animated-item-1">Software excellence at your service</h2><br>
+<!--                                    <p class="boxed animation animated-item-2" >Websites that make your business reach digitally.</p>-->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div><!--/.item-->
-                <div class="item" style="background-image: url(<?php echo base_url();?>application/views/images/slider/bg1.jpg)">
+                <div class="item" style="background-image: url(<?php echo base_url();?>application/views/images/slider/background2.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
-                                <div class="carousel-content center centered">
-                                    <h2 class="boxed animation animated-item-1">Clean, Crisp, Powerful and Responsive Web Applications</h2>
-                                    <p class="boxed animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                <div class="carousel-content center top">
+                                    <h2 class="boxed animation animated-item-1">Androiding our Way</h2>
+                                    <!--<p class="boxed animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>-->
                                     <br>
-                                    <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
+<!--                                    <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>-->
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div><!--/.item-->
-                <div class="item" style="background-image: url(<?php echo base_url();?>application/views/images/slider/bg3.jpg)">
+                <div class="item" style="background-image: url(<?php echo base_url();?>application/views/images/slider/background3.jpg)">
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Powerful and Responsive Web Design Theme</h2>
-                                    <p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
-                                    <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
+                                    <h2 class="animation animated-item-1">Aligning your business with current technology.</h2>
+<!--                                    <p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
+                                    <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>-->
                                 </div>
                             </div>
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+<!--                            <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="centered">
                                     <div class="embed-container">
                                         <iframe src="//player.vimeo.com/video/69421653?title=0&amp;byline=0&amp;portrait=0&amp;color=a22c2f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div><!--/.item-->
@@ -176,11 +176,11 @@
             <div class="row">
                 <div class="col-md-3">
                     <h3>Our Latest Project</h3>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                    <div class="btn-group">
+                    <p>Snapshots that showcase some projects that have evolved from out technological environment.</p>
+<!--                    <div class="btn-group">
                         <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a>
                         <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="icon-angle-right"></i></a>
-                    </div>
+                    </div>-->
                     <p class="gap"></p>
                 </div>
                 <div class="col-md-9">
@@ -285,28 +285,28 @@
                 <div class="col-lg-12">
                     <div class="center">
                         <h2>What our clients say</h2>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        <p>Feedback from our clients.</p>
                     </div>
                     <div class="gap"></div>
                     <div class="row">
                         <div class="col-md-6">
                             <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                                <p>Very good co-ordination by the guys who effectively took all our problems by providing their technological solutions.<br></p>
+<!--                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>-->
                             </blockquote>
                             <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                                <p>Many thanks for all of your work by the I.T team. <br><br></p>
+<!--                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>-->
                             </blockquote>
                         </div>
                         <div class="col-md-6">
                             <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                                <p>It was business critical that these guys finished and it was down to the commitment of these individuals to achieve this.</p>
+<!--                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>-->
                             </blockquote>
                             <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                                <p>The guys are so helpful and willing and that makes things much easier for us in technological sense.</p>
+<!--                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>-->
                             </blockquote>
                         </div>
                     </div>
