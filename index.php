@@ -1,205 +1,318 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
 
-/*
- *---------------------------------------------------------------
- * APPLICATION ENVIRONMENT
- *---------------------------------------------------------------
- *
- * You can load different configurations depending on your
- * current environment. Setting the environment also influences
- * things like logging and error reporting.
- *
- * This can be set to anything, but default usage is:
- *
- *     development
- *     testing
- *     production
- *
- * NOTE: If you change these, also change the error_reporting() code below
- *
- */
-	define('ENVIRONMENT', 'development');
-/*
- *---------------------------------------------------------------
- * ERROR REPORTING
- *---------------------------------------------------------------
- *
- * Different environments will require different levels of error reporting.
- * By default development will show errors but testing and live will hide them.
- */
+        <!-- loading all links from header file -->
+        <?php $this->load->view('elements/header'); ?>
+    </head><!--/head-->
+    <body>
+        <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
+            <div class="container">
+                <div class="navbar-header">
 
-if (defined('ENVIRONMENT'))
-{
-	switch (ENVIRONMENT)
-	{
-		case 'development':
-			error_reporting(E_ALL);
-		break;
-	
-		case 'testing':
-		case 'production':
-			error_reporting(0);
-		break;
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="<?php echo site_url(); ?>"><!--<img src="<?php echo base_url(); ?>application/views/images/logo.png" alt="logo">-->
+                        <h3>iTechRoute</h3>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="<?php echo site_url(); ?>">Home</a></li>
+                        <li><a href="<?php echo site_url(); ?>/loadViewsController/loadAboutus">About Us</a></li>
+                        <li><a href="<?php echo site_url(); ?>/loadViewsController/loadServices">Services</a></li>
+    <!--                    <li><a href="<?php echo site_url(); ?>/loadViewsController/loadPortfolio">Portfolio</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="<?php echo site_url(); ?>/loadViewsController/loadFAQ">FAQ</a></li>
+                            </ul>
+                        </li>-->
+                        <!--                    <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="<?//php echo base_url();?>application/views/career.html">Career</a></li>
+                                                    <li><a href="<?//php echo base_url();?>application/views/blog-item.html">Blog Single</a></li>
+                                                    <li><a href="<?//php echo base_url();?>application/views/pricing.html">Pricing</a></li>
+                                                    <li><a href="<?//php echo base_url();?>application/views/404.html">404</a></li>
+                                                    <li><a href="<?//php echo base_url();?>application/views/registration.html">Registration</a></li>
+                                                    <li class="divider"></li>
+                                                    <li><a href="<?//php echo base_url();?>application/views/privacy.html">Privacy Policy</a></li>
+                                                    <li><a href="<?//php echo base_url();?>application/views/terms.html">Terms of Use</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="<?php echo site_url(); ?>loadViewsController/loadServices">Blog</a></li> -->
+                        <li><a href="<?php echo site_url(); ?>/loadViewsController/loadContactus">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header><!--/header-->
+        <section id="main-slider" class="no-margin">
+            <div class="carousel big-slider slide wet-asphalt">
+                <ol class="carousel-indicators">
+                    <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#main-slider" data-slide-to="1"></li>
+                    <li data-target="#main-slider" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active" style="background-image: url(<?php echo base_url(); ?>application/views/images/slider/WebDesign.png)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="carousel-content centered">
+                                        <h2 class="boxed animation animated-item-1">Powerful and Responsive Websites</h2><br>
+                                        <p class="boxed animation animated-item-2" >Websites that make your business reach digitally.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--/.item-->
+                    <div class="item" style="background-image: url(<?php echo base_url(); ?>application/views/images/slider/bg1.jpg)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="carousel-content center centered">
+                                        <h2 class="boxed animation animated-item-1">Clean, Crisp, Powerful and Responsive Web Applications</h2>
+                                        <p class="boxed animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                        <br>
+                                        <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--/.item-->
+                    <div class="item" style="background-image: url(<?php echo base_url(); ?>application/views/images/slider/bg3.jpg)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="carousel-content centered">
+                                        <h2 class="animation animated-item-1">Powerful and Responsive Web Design Theme</h2>
+                                        <p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
+                                        <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                    <div class="centered">
+                                        <div class="embed-container">
+                                            <iframe src="//player.vimeo.com/video/69421653?title=0&amp;byline=0&amp;portrait=0&amp;color=a22c2f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--/.item-->
+                </div><!--/.carousel-inner-->
+            </div><!--/.carousel-->
+            <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+                <i class="icon-angle-left"></i>
+            </a>
+            <a class="next hidden-xs" href="#main-slider" data-slide="next">
+                <i class="icon-angle-right"></i>
+            </a>
+        </section><!--/#main-slider-->
 
-		default:
-			exit('The application environment is not set correctly.');
-	}
-}
+        <section id="services" class="emerald">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="media">
+                            <div class="pull-left">
+                                <i class="icon-twitter icon-md"></i>
+                            </div>
+                            <div class="media-body">
+                                <a href="https://twitter.com/itechroute" target="_blank"><h3 class="media-heading">Twitter</h3></a>
+                                <p>Stay up to date on trends, and to drive awareness to IT and tech related tweets and content that keeps you engaging, do follow us on twitter.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="media">
+                            <div class="pull-left">
+                                <i class="icon-facebook icon-md"></i>
+                            </div>
+                            <div class="media-body">
+                                <a href="https://www.facebook.com/iTechRoute" target="_blank"><h3 class="media-heading">Facebook</h3></a>
+                                <p>Make yourself more knowledgeable by reading our posts and new updates on our Facebook page, and also get to know about great opportunities waiting for you @ iTechRoute.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="media">
+                            <div class="pull-left">
+                                <i class="icon-linkedin-sign icon-md"></i>
+                            </div>
+                            <div class="media-body">
+                                <a href="https://www.linkedin.com/company/itechroute" target="_blank"><h3 class="media-heading">Linkedin</h3></a>
+                                <p>Know more about us and our corporate environment by following us on LinkedIn</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div>
+            </div>
+        </section><!--/#services-->
 
-/*
- *---------------------------------------------------------------
- * SYSTEM FOLDER NAME
- *---------------------------------------------------------------
- *
- * This variable must contain the name of your "system" folder.
- * Include the path if the folder is not in the same  directory
- * as this file.
- *
- */
-	$system_path = 'system';
+        <section id="recent-works">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3>Our Latest Project</h3>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        <div class="btn-group">
+                            <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a>
+                            <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="icon-angle-right"></i></a>
+                        </div>
+                        <p class="gap"></p>
+                    </div>
+                    <div class="col-md-9">
+                        <div id="scroller" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="row">
+                                        <div class="col-xs-4">
+                                            <div class="portfolio-item">
+                                                <div class="item-inner">
+                                                    <img class="img-responsive" src="<?php echo base_url(); ?>application/views/images/portfolio/recent/Community_App.png" alt="">
+                                                    <h5>
+                                                        Android Application - Community App
+                                                    </h5>
+                                                    <div class="overlay">
+                                                        <a class="preview btn btn-danger" title="Android Application - Community App" href="<?php echo base_url(); ?>application/views/images/portfolio/full/Community_App.png" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                            
+                                        <div class="col-xs-4">
+                                            <div class="portfolio-item">
+                                                <div class="item-inner">
+                                                    <img class="img-responsive" src="<?php echo base_url(); ?>application/views/images/portfolio/recent/Hospital_ERP.png" alt="">
+                                                    <h5>
+                                                        ERP System for Hospital.
+                                                    </h5>
+                                                    <div class="overlay">
+                                                        <a class="preview btn btn-danger" title="ERP System for Hospital." href="<?php echo base_url(); ?>application/views/images/portfolio/full/Hospital_ERP.png" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>                            
+                                        <div class="col-xs-4">
+                                            <div class="portfolio-item">
+                                                <div class="item-inner">
+                                                    <img class="img-responsive" src="<?php echo base_url(); ?>application/views/images/portfolio/recent/Shopping_Cart.png" alt="">
+                                                    <h5>
+                                                        Shopping Cart Project.
+                                                    </h5>
+                                                    <div class="overlay">
+                                                        <a class="preview btn btn-danger" title="Shopping Cart Project." href="<?php echo base_url(); ?>application/views/images/portfolio/full/Shopping_Cart.png" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!--/.row-->
+                                </div><!--/.item-->
+                                <!--                            <div class="item">
+                                                                <div class="row">
+                                                                    <div class="col-xs-4">
+                                                                        <div class="portfolio-item">
+                                                                            <div class="item-inner">
+                                                                                <img class="img-responsive" src="<?php echo base_url(); ?>application/views/images/portfolio/recent/item2.png" alt="">
+                                                                                <h5>
+                                                                                    Flat Theme - Business Theme
+                                                                                </h5>
+                                                                                <div class="overlay">
+                                                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url(); ?>application/views/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xs-4">
+                                                                        <div class="portfolio-item">
+                                                                            <div class="item-inner">
+                                                                                <img class="img-responsive" src="<?php echo base_url(); ?>application/views/images/portfolio/recent/item1.png" alt="">
+                                                                                <h5>
+                                                                                    Nova - Corporate site template
+                                                                                </h5>
+                                                                                <div class="overlay">
+                                                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url(); ?>application/views/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>                            
+                                                                    <div class="col-xs-4">
+                                                                        <div class="portfolio-item">
+                                                                            <div class="item-inner">
+                                                                                <img class="img-responsive" src="<?php echo base_url(); ?>application/views/images/portfolio/recent/item3.png" alt="">
+                                                                                <h5>
+                                                                                    Fornax - Apps site template
+                                                                                </h5>
+                                                                                <div class="overlay">
+                                                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url(); ?>application/views/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>/.item-->
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.row-->
+            </div>
+        </section><!--/#recent-works-->
 
-/*
- *---------------------------------------------------------------
- * APPLICATION FOLDER NAME
- *---------------------------------------------------------------
- *
- * If you want this front controller to use a different "application"
- * folder then the default one you can set its name here. The folder
- * can also be renamed or relocated anywhere on your server.  If
- * you do, use a full server path. For more info please see the user guide:
- * http://codeigniter.com/user_guide/general/managing_apps.html
- *
- * NO TRAILING SLASH!
- *
- */
-	$application_folder = 'application';
+        <section id="testimonial" class="alizarin">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="center">
+                            <h2>What our clients say</h2>
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                        </div>
+                        <div class="gap"></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <blockquote>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                    <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                                </blockquote>
+                                <blockquote>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                    <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                                </blockquote>
+                            </div>
+                            <div class="col-md-6">
+                                <blockquote>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                    <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                                </blockquote>
+                                <blockquote>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                    <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--/#testimonial-->
 
-/*
- * --------------------------------------------------------------------
- * DEFAULT CONTROLLER
- * --------------------------------------------------------------------
- *
- * Normally you will set your default controller in the routes.php file.
- * You can, however, force a custom routing by hard-coding a
- * specific controller class/function here.  For most applications, you
- * WILL NOT set your routing here, but it's an option for those
- * special instances where you might want to override the standard
- * routing in a specific front controller that shares a common CI installation.
- *
- * IMPORTANT:  If you set the routing here, NO OTHER controller will be
- * callable. In essence, this preference limits your application to ONE
- * specific controller.  Leave the function name blank if you need
- * to call functions dynamically via the URI.
- *
- * Un-comment the $routing array below to use this feature
- *
- */
-	// The directory name, relative to the "controllers" folder.  Leave blank
-	// if your controller is not in a sub-folder within the "controllers" folder
-	// $routing['directory'] = '';
+        <?php $this->load->view('elements/bottomsection'); ?>
+        <!--/#bottom-->
 
-	// The controller class file name.  Example:  Mycontroller
-	// $routing['controller'] = '';
+        <?php $this->load->view('elements/footer'); ?>
+        <!--/#footer-->
+        <?php $this->load->view('elements/scripts'); ?>
+        <script>
+            $(document).ready(function() {
+                $('.big-slider').carousel({
+                    interval: 3000
+                });
+            });
 
-	// The controller function you wish to be called.
-	// $routing['function']	= '';
-
-
-/*
- * -------------------------------------------------------------------
- *  CUSTOM CONFIG VALUES
- * -------------------------------------------------------------------
- *
- * The $assign_to_config array below will be passed dynamically to the
- * config class when initialized. This allows you to set custom config
- * items or override any default config values found in the config.php file.
- * This can be handy as it permits you to share one application between
- * multiple front controller files, with each file containing different
- * config values.
- *
- * Un-comment the $assign_to_config array below to use this feature
- *
- */
-	// $assign_to_config['name_of_config_item'] = 'value of config item';
-
-
-
-// --------------------------------------------------------------------
-// END OF USER CONFIGURABLE SETTINGS.  DO NOT EDIT BELOW THIS LINE
-// --------------------------------------------------------------------
-
-/*
- * ---------------------------------------------------------------
- *  Resolve the system path for increased reliability
- * ---------------------------------------------------------------
- */
-
-	// Set the current directory correctly for CLI requests
-	if (defined('STDIN'))
-	{
-		chdir(dirname(__FILE__));
-	}
-
-	if (realpath($system_path) !== FALSE)
-	{
-		$system_path = realpath($system_path).'/';
-	}
-
-	// ensure there's a trailing slash
-	$system_path = rtrim($system_path, '/').'/';
-
-	// Is the system path correct?
-	if ( ! is_dir($system_path))
-	{
-		exit("Your system folder path does not appear to be set correctly. Please open the following file and correct this: ".pathinfo(__FILE__, PATHINFO_BASENAME));
-	}
-
-/*
- * -------------------------------------------------------------------
- *  Now that we know the path, set the main path constants
- * -------------------------------------------------------------------
- */
-	// The name of THIS file
-	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
-
-	// The PHP file extension
-	// this global constant is deprecated.
-	define('EXT', '.php');
-
-	// Path to the system folder
-	define('BASEPATH', str_replace("\\", "/", $system_path));
-
-	// Path to the front controller (this file)
-	define('FCPATH', str_replace(SELF, '', __FILE__));
-
-	// Name of the "system folder"
-	define('SYSDIR', trim(strrchr(trim(BASEPATH, '/'), '/'), '/'));
-
-
-	// The path to the "application" folder
-	if (is_dir($application_folder))
-	{
-		define('APPPATH', $application_folder.'/');
-	}
-	else
-	{
-		if ( ! is_dir(BASEPATH.$application_folder.'/'))
-		{
-			exit("Your application folder path does not appear to be set correctly. Please open the following file and correct this: ".SELF);
-		}
-
-		define('APPPATH', BASEPATH.$application_folder.'/');
-	}
-
-/*
- * --------------------------------------------------------------------
- * LOAD THE BOOTSTRAP FILE
- * --------------------------------------------------------------------
- *
- * And away we go...
- *
- */
-require_once BASEPATH.'core/CodeIgniter.php';
-
-/* End of file index.php */
-/* Location: ./index.php */
+        </script>
+    </body>
+</html>

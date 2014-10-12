@@ -52,7 +52,7 @@
         </div>
     </header><!--/header-->
     <section id="main-slider" class="no-margin">
-        <div class="carousel slide wet-asphalt">
+        <div class="carousel big-slider slide wet-asphalt">
             <ol class="carousel-indicators">
                 <li data-target="#main-slider" data-slide-to="0" class="active"></li>
                 <li data-target="#main-slider" data-slide-to="1"></li>
@@ -305,5 +305,13 @@
     <?php $this->load->view('elements/footer');?>
     <!--/#footer-->
 <?php $this->load->view('elements/scripts'); ?>
+    <script>
+            $(document).ready(function() {
+                $('.big-slider').carousel({
+                    interval: 3000
+                });
+            });
+
+        </script>
 </body>
 </html>
