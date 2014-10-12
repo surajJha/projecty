@@ -31,11 +31,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url();?>application/views/images/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="<?php echo site_url();?>"><img src="<?php echo base_url();?>application/views/images/logo.png" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="<?php echo base_url();?>">Home</a></li>
+                    <li class="active"><a href="<?php echo site_url();?>">Home</a></li>
                     <li><a href="<?php echo site_url();?>/loadViewsController/loadAboutus">About Us</a></li>
                     <li><a href="<?php echo site_url();?>/loadViewsController/loadServices">Services</a></li>
                     <li><a href="<?php echo site_url();?>/loadViewsController/loadPortfolio">Portfolio</a></li>
