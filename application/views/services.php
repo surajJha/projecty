@@ -156,20 +156,20 @@
                 <div class="col-lg-12">
                     <div class="center">
                         <h2>What our clients say</h2>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+<!--                        <p>FeedBck from our clients</p>-->
                     </div>
                     <div class="gap"></div>
                     <div class="row">
                         <div class="col-md-6">
                             <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                                <p>Very good co-ordination by the guys who effectively took all our problems by providing their technological solutions.<br></p>
+<!--                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>-->
                             </blockquote>
                         </div>
                         <div class="col-md-6">
                             <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                                <p>It was business critical that these guys finished and it was down to the commitment of these individuals to achieve this.</p>
+<!--                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>-->
                             </blockquote>
                         </div>
                     </div>
