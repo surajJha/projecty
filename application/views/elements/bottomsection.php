@@ -1,13 +1,15 @@
  <section id="bottom" class="wet-asphalt">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <h4>About Us</h4>
-                    <p>@iTechRoute we came in to make people find their way in the world of Information Technology…</p>
-                    <p>We at iTechRoute have grown up to build your Business online; in fact we connect your Business to the world!! iTechRoute not only publishes you online but also make business level applications for your company or an organization!</p>
+                    <p>We are a Technology services company</p>
+                    <p>and provide high quality software solutions</p>
+                    <p>as per our client's needs</p>
+<!--                    <p>We at iTechRoute have grown up to build your Business online; in fact we connect your Business to the world!! iTechRoute not only publishes you online but also make business level applications for your company or an organization!</p>-->
                 </div><!--/.col-md-3-->
 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <h4>Company</h4>
                     <div>
                         <ul class="arrow">
@@ -25,7 +27,7 @@
                     </div>
                 </div><!--/.col-md-3-->
 
-                <div class="col-md-3 col-sm-6">
+<!--                <div class="col-md-3 col-sm-6">
                     <h4>Latest Blog</h4>
                     <div>
                         <div class="media">
@@ -56,9 +58,9 @@
                             </div>
                         </div>
                     </div>  
-                </div><!--/.col-md-3-->
+                </div>/.col-md-3-->
 
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-4 col-sm-6">
                     <h4>Address</h4>
                     <address>
                         <strong>iTechRoute</strong><br>
@@ -68,7 +70,7 @@
                         India.<br>
                         <abbr title="Mobile">M:</abbr> 9867853440
                     </address>
-                    <h4>Newsletter</h4>
+<!--                    <h4>Newsletter</h4>
                     <form role="form">
                         <div class="input-group">
                             <input type="text" class="form-control" autocomplete="off" placeholder="Enter your email">
@@ -76,7 +78,7 @@
                                 <button class="btn btn-danger" type="button">Go!</button>
                             </span>
                         </div>
-                    </form>
+                    </form>-->
                 </div> <!--/.col-md-3-->
             </div>
         </div>
