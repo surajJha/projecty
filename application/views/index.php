@@ -3,7 +3,8 @@
 <head>
     <title>Home</title>
      <!-- loading all links from header file -->
-    
+     <!-- loading all links from header file -->
+    <?php $this->load->view('elements/header');?>
 </head><!--/head-->
 <body>
     <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
