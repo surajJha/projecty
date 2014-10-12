@@ -32,7 +32,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="<?php echo site_url();?>"><!--<img src="<?php echo base_url();?>application/views/images/logo.png" alt="logo">-->
-                    <h2 class="animation animated-item-1">iTechRoute</h2>
+                    <h3>iTechRoute</h3>
                 </a>
             </div>
             <div class="collapse navbar-collapse">
@@ -41,12 +41,12 @@
                     <li><a href="<?php echo site_url();?>/loadViewsController/loadAboutus">About Us</a></li>
                     <li><a href="<?php echo site_url();?>/loadViewsController/loadServices">Services</a></li>
                     <li><a href="<?php echo site_url();?>/loadViewsController/loadPortfolio">Portfolio</a></li>
-                    <li class="dropdown">
+<!--                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="<?php echo site_url();?>/loadViewsController/loadFAQ">FAQ</a></li>
                         </ul>
-                    </li>
+                    </li>-->
 <!--                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">

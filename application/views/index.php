@@ -41,13 +41,13 @@
                     <li class="active"><a href="<?php echo site_url();?>">Home</a></li>
                     <li><a href="<?php echo site_url();?>/loadViewsController/loadAboutus">About Us</a></li>
                     <li><a href="<?php echo site_url();?>/loadViewsController/loadServices">Services</a></li>
-                    <li><a href="<?php echo site_url();?>/loadViewsController/loadPortfolio">Portfolio</a></li>
+<!--                    <li><a href="<?php echo site_url();?>/loadViewsController/loadPortfolio">Portfolio</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="<?php echo site_url();?>/loadViewsController/loadFAQ">FAQ</a></li>
                         </ul>
-                    </li>
+                    </li>-->
 <!--                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
@@ -191,12 +191,12 @@
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="<?php echo base_url();?>application/views/images/portfolio/recent/item1.png" alt="">
+                                                <img class="img-responsive" src="<?php echo base_url();?>application/views/images/portfolio/recent/Community_App.png" alt="">
                                                 <h5>
-                                                    Nova - Corporate site template
+                                                    Android Application - Community App
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url();?>images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Android Application - Community App" href="<?php echo base_url();?>application/views/images/portfolio/full/Community_App.png" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -204,12 +204,12 @@
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="<?php echo base_url();?>application/views/images/portfolio/recent/item3.png" alt="">
+                                                <img class="img-responsive" src="<?php echo base_url();?>application/views/images/portfolio/recent/Hospital_ERP.png" alt="">
                                                 <h5>
-                                                    Fornax - Apps site template
+                                                    ERP System for Hospital.
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url();?>application/views/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="ERP System for Hospital." href="<?php echo base_url();?>application/views/images/portfolio/full/Hospital_ERP.png" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -217,19 +217,19 @@
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
                                             <div class="item-inner">
-                                                <img class="img-responsive" src="<?php echo base_url();?>application/views/images/portfolio/recent/item2.png" alt="">
+                                                <img class="img-responsive" src="<?php echo base_url();?>application/views/images/portfolio/recent/Shopping_Cart.png" alt="">
                                                 <h5>
-                                                    Flat Theme - Business Theme
+                                                    Shopping Cart Project.
                                                 </h5>
                                                 <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url();?>application/views/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    <a class="preview btn btn-danger" title="Shopping Cart Project." href="<?php echo base_url();?>application/views/images/portfolio/full/Shopping_Cart.png" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div><!--/.row-->
                             </div><!--/.item-->
-                            <div class="item">
+<!--                            <div class="item">
                                 <div class="row">
                                     <div class="col-xs-4">
                                         <div class="portfolio-item">
@@ -271,7 +271,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div><!--/.item-->
+                            </div>/.item-->
                         </div>
                     </div>
                 </div>
