@@ -8,7 +8,8 @@
                     <ul class="pull-right">
                         <li><a href="<?php echo site_url();?>">Home</a></li>
                         <li><a href="<?php echo site_url();?>/loadViewsController/loadAboutus">About Us</a></li>
-                        <li><a href="<?php echo site_url();?>/loadViewsController/loadFAQ">Faq</a></li>
+                        <li><a href="<?php echo site_url();?>/loadViewsController/loadServices">Services</a></li>
+<!--                        <li><a href="<?php echo site_url();?>/loadViewsController/loadFAQ">Faq</a></li>-->
                         <li><a href="<?php echo site_url();?>/loadViewsController/loadContactus">Contact Us</a></li>
                         <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->
                     </ul>

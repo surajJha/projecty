@@ -17,12 +17,12 @@
                             <li><a href="<?php echo site_url();?>/loadViewsController/loadAboutus#meettheteam">Our Team</a></li>
 <!--                            <li><a href="#">Our Partners</a></li>-->
                             <li><a href="<?php echo site_url();?>/loadViewsController/loadServices">Our Services</a></li>
-                            <li><a href="<?php echo site_url();?>/loadViewsController/loadFAQ">Faq</a></li>
+<!--                            <li><a href="<?php echo site_url();?>/loadViewsController/loadFAQ">Faq</a></li>-->
                             <li><a href="<?php echo site_url();?>/loadViewsController/loadContactus">Contact Us</a></li>
 <!--                            <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Terms of Use</a></li>
                             <li><a href="#">Copyright</a></li>-->
-                            <br><br><br><br>
+                            <br><br><br><br><br>
                         </ul>
                     </div>
                 </div><!--/.col-md-3-->

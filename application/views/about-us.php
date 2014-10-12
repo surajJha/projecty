@@ -16,7 +16,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="<?php echo site_url();?>"><!--<img src="<?php echo base_url();?>application/views/images/logo.png" alt="logo">-->
-                    <h2 class="animation animated-item-1">iTechRoute</h2>
+                    <h3>iTechRoute</h3>
                 </a>
             </div>
             <div class="collapse navbar-collapse">
@@ -25,13 +25,13 @@
                     <li><a href="<?php echo site_url();?>">Home</a></li>
                     <li class="active"><a href="<?php echo site_url();?>/loadViewsController/loadAboutus">About Us</a></li>
                     <li><a href="<?php echo site_url();?>/loadViewsController/loadServices">Services</a></li>
-                    <li><a href="<?php echo site_url();?>/loadViewsController/loadPortfolio">Portfolio</a></li>
+<!--                    <li><a href="<?php echo site_url();?>/loadViewsController/loadPortfolio">Portfolio</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="<?php echo site_url();?>/loadViewsController/loadFAQ">FAQ</a></li>
                         </ul>
-                    </li>
+                    </li>-->
 <!--                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
@@ -103,18 +103,19 @@
                     </div>
                     <div class="progress">
                         <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 92%;">
-                            <span>Academic Year Projects</span>
+                            <span>Academic Research Projects</span>
                         </div>
                     </div>
                    
                     
-                <a name="meettheteam"></a>    
+                    
                 </div>
                 
             </div><!--/.col-sm-6-->
         </div><!--/.row-->
         
         <hr>
+        <a class="anchor" name="meettheteam"></a>
         <div class="gap"></div>
         <h1 class="center">Meet the Team</h1>
         <p class="lead center"></p>
@@ -128,7 +129,8 @@
                     <h5>Mrs. Ranjana Wankhade<small class="designation muted">Manager</small></h5>
                     <p>Dreams have only one owner at a time.</p>
                     <br>
-                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                    <!--<a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a>--> 
+                    <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
                 </div>
             </div>
 
@@ -136,9 +138,10 @@
                 <div class="center">
 
 <!--                    <p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url();?>application/views/images/team-member.jpg" alt="" ></p>-->
-                    <h5>Mr. Deepak Bhaktiani<small class="designation muted">Operation Excecutive</small></h5>
+                    <h5>Mr. Deepak Bhaktiani<small class="designation muted">Operations Excecutive</small></h5>
                     <p>Do celebrate milestones as you prepare for the road ahead.</p>
-                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+<!--                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> -->
+                    <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
                 </div>
             </div>        
             <div class="col-md-3 col-xs-6">
@@ -147,7 +150,8 @@
                     <h5>Mr. Piyush Chandekar<small class="designation muted">Project Head</small></h5>
                     <p>As long as you’re going to be thinking anyway, think big.</p>
 
-                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                    <!--<a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a>--> 
+                    <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
                 </div>
             </div>        
             <div class="col-md-3 col-xs-6">
@@ -156,7 +160,8 @@
                     <h5>Mr. Laxman Maskar<small class="designation muted">Project Head</small></h5>
                     <p>Always deliver more than expected.</p>
                     <br>
-                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                    <!--<a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a>--> 
+                    <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
                 </div>
             </div>
         </div><!--/#meet-the-team-->

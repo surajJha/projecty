@@ -15,9 +15,10 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?php echo site_url(); ?>"><!--<img src="<?php echo base_url(); ?>application/views/images/logo.png" alt="logo">-->
-                        <h2 class="animation animated-item-1">iTechRoute</h2>
+                    <a class="navbar-brand" href="<?php echo site_url();?>"><!--<img src="<?php echo base_url();?>application/views/images/logo.png" alt="logo">-->
+                    <h3>iTechRoute</h3>
                     </a>
+
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -57,7 +58,7 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <h1>Contact Us</h1>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                        <p></p>
                     </div>
                     <div class="col-sm-6">
                         <ul class="breadcrumb pull-right">
