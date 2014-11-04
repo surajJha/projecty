@@ -64,7 +64,7 @@
                     <h4>Address</h4>
                     <address>
                         <strong>iTechRoute</strong><br>
-                        Aashapura Park, shop No. 008,<br>
+                        Ashapura Park, Office No. 008,<br>
                         Near Ganesh Mandir, Sector 19, Airoli<br>
                         Navi Mumbai, Maharashtra 400708<br>
                         India.<br>
