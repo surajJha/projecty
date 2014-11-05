@@ -85,7 +85,7 @@
                                     <input type="text" name="last" id="last" class="form-control" required="required" placeholder="Last Name">
                                 </div>
                                 <div class="form-group">
-                                    <input type="number" name="phone" id="phone" class="form-control" required="required" placeholder="Phone Number">
+                                    <input type="text" name="phone" id="phone" class="form-control" required="required" placeholder="Phone Number">
                                 </div>
                                 <div class="form-group">
                                     <input type="email" name="email" id="email" class="form-control" required="required" placeholder="Email address">
@@ -98,7 +98,7 @@
 
                             </div>
                             <div class="col-sm-7">
-                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
+                                <textarea name="message" id="messagebox" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
                             </div>
                         </div>
                     </form>
@@ -127,126 +127,6 @@
         <?php $this->load->view('elements/footer.php'); ?>
         <!--/#footer-->
         <?php $this->load->view('elements/scripts'); ?>
-        <script>
-            $(document).ready(function() {
-                var firstnameflag= false;
-                var lastnameflag= false;
-                var emailflag= false;
-                var phoneflag= false;
-                var msgflag= false;
-                
-                //firstname validation
-                $('#first').on("blur",function(){
-                    if($('#first').val().length>0){
-                        if(validatename($('#first').val())){
-                            $('#first').css({'box-shadow': 'inset 0 1px 1px rgba(0,0,0,0.075)'});
-                           firstnameflag=true;
-                        }
-                        else
-                        {
-                             $('#first').css({'box-shadow': '0px 0px 7px red'});
-                            firstnameflag=false;
-                        }
-                    }else{
-                        $('#first').css({'box-shadow': '0px 0px 7px red'});
-                        firstnameflag=false;
-                    }
-                    
-                });
-                
-                //lastname validation
-                $('#last').on("blur",function(){
-                    if($('#last').val().length>0){
-                        if(validatename($('#last').val())){
-                             $('#last').css({'box-shadow': 'inset 0 1px 1px rgba(0,0,0,0.075)'});
-                            lastnameflag=true;
-                        }
-                        else
-                        {
-                             $('#last').css({'box-shadow': '0px 0px 7px red'});
-                            lastnameflag=false;
-                        }
-                    }else{
-                        $('#last').css({'box-shadow': '0px 0px 7px red'});
-                        lastnameflag=false;
-                    }
-                });
-                
-                //number validation
-                $('#phone').on("blur",function(){
-                    if($('#phone').val().length>7){
-                        if(validatenumber($('#phone').val())){
-                             $('#phone').css({'box-shadow': 'inset 0 1px 1px rgba(0,0,0,0.075)'});
-                            phoneflag=true;
-                        }
-                        else
-                        {
-                             $('#phone').css({'box-shadow': '0px 0px 7px red'});
-                            phoneflag=false;
-                        }
-                    }else{
-                        $('#phone').css({'box-shadow': '0px 0px 7px red'});
-                        phoneflag=false;
-                    }
-                });
-                
-                //email validation
-                $('#email').on("blur",function(){
-                    if(validateEmail($('#email').val())){
-                         $('#email').css({'box-shadow': 'inset 0 1px 1px rgba(0,0,0,0.075)'});
-                        emailflag=true;
-                    }
-                    else
-                    {
-                         $('#email').css({'box-shadow': '0px 0px 7px red'});
-                        emailflag=false;
-                    }
-                });
-                    
-                $(".submit-contact").on("click", function(e) {
-                e.preventDefault();
-                if (!firstnameflag && !lastnameflag &&!emailflag && !phoneflag && !msgflag){
-                    $(".success-message").html("");
-                    $(".error-message").html("Please fill in details properly.");
-                } else{
-                    var postData = $(".contact-form").serialize();
-                            $.ajax(
-                            {
-                            url:"../submitContactController/submitContact",
-                                    type: "POST",
-                                    data: postData,
-                                    success: function(data, textStatus, jqXHR)
-                                    {
-                                    if (data === "success"){
-                                    $(".error-message").html("");    
-                                    $(".success-message").html("Thank You!!");
-                                    }
-                                    else{
-                                    $(".error-message").html("There was some error ! Please try again.");
-                                    }
-                                    //data: return data from server
-                                    },
-                                    error: function(jqXHR, textStatus, errorThrown)
-                                    {
-                                    //if fails      
-                                    }
-                            });
-                }
-                })
-            })
-            function validateEmail(email) {
-            var re = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
-                    return re.test(email);
-                    }
-            function validatename(name) {
-            var re = /^[a-z0-9]+$/i;
-                    return re.test(name);
-                    }
-            function validatenumber(number) {
-            var re = /^\d+$/;
-                    return re.test(number);
-                    }
-            </script>
-
+        <script src="<?php echo base_url();?>application/views/js/contact-us.js"></script>
     </body>
 </html>
