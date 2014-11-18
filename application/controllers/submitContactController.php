@@ -29,6 +29,7 @@ class SubmitContactController extends CI_Controller {
 
         //SEND EMAIL TO ITSELF
         $this->sendEmail($message, $firstname, $lastname, $email, $phone);
+        echo "success";
     }
 
     public function sendEmail($message, $firstname,$lastname, $email, $phone) {
@@ -37,19 +38,19 @@ class SubmitContactController extends CI_Controller {
         $config['smtp_host'] = 'ssl://smtp.gmail.com';
         $config['smtp_port'] = '465';
         $config['smtp_timeout'] = '7';
-        $config['smtp_user'] = 'itechroutes@gmail.com';
+        $config['smtp_user'] = 'admin@itechroute.com';
         $config['smtp_pass'] = 'makinguskilled';
         $config['charset'] = 'utf-8';
         $config['newline'] = "\r\n";
         $config['mailtype'] = 'text'; // or html
         $config['validation'] = TRUE; // bool whether to validate email or not      
         $this->email->initialize($config);
-        $this->email->from('itechroutes@gmail.com', 'WebMaster iTechroute');
-        $this->email->to('itechroutes@gmail.com');
+        $this->email->from('admin@itechroute.com', 'WebMaster iTechroute');
+        $this->email->to('skj48817@gmail.com');
 
 
-         $email_body = "Email from {$firstname.' '.$lastname }, "
-                    . $message
+         $email_body = "Email from {$firstname}".' '."{$lastname }, "
+                    . "{$message}"
                     . "contact details :"
                     . "Email ID - {$email}"
                     . "Phone Number - {$phone}";
